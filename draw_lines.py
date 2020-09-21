@@ -21,7 +21,9 @@ def read_lines(csv_dir, img_dim):
             # This provides a solution because the focal plaane and building
             # are not parallel.
             edge_left = (0, int(line_of(0, point_1, point_2)))
-            edge_right = (img_dim[1], int(line_of(img_dim[1], point_1, point_2)))
+            edge_right = (
+                img_dim[1],
+                int(line_of(img_dim[1], point_1, point_2)))
             lines.append((edge_left, edge_right))
 
     return lines
