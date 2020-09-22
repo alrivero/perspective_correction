@@ -130,3 +130,5 @@ dmypy.json
 
 # Visual Studio Code
 .vscode
+sample_images/.DS_Store
+.DS_Store
